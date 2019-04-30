@@ -22,7 +22,8 @@ function readData()
     // print_r($row);
     $id = $row['id'];
     $username = $row['username'];
-    echo "<p class='lead'> $id / $username</p>";
+    $Username = ucfirst($username);
+    echo "<p class='lead'>$id / $Username</p>";
   }
 }
 
